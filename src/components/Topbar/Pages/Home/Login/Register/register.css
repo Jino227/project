@@ -1,0 +1,63 @@
+body{
+    background-color: lightgrey;
+}
+.register{
+    height: calc(100vh-50px);
+    background-color: lightgray;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registertitle{
+    font-size: 50px;
+    
+}
+.registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerform>label{
+    margin: 10px 0;
+}
+.registerinput{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+}
+.registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.registerbutton:hover{
+    transform: style(1.1);
+    background-color:blue;
+    color: bisque;
+}
+.registerloginbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:lightcoral;
+    cursor: pointer;
+    border: none;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+.registerloginbutton:hover{
+    transform: style(1.5);
+    background-color:brown;
+    color: antiquewhite;
+}
+@media screen and (max-width:768px) {
+    
+}
